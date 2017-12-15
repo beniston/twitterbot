@@ -1,0 +1,24 @@
+{
+  "name": "twitterbot",
+  "version": "1.0.0",
+  "description": "Automatically retweets the tweet from the user",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beniston/twitterbot.git"
+  },
+  "author": "Beni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beniston/twitterbot/issues"
+  },
+  "homepage": "https://github.com/beniston/twitterbot#readme",
+  "dependencies": {
+    "twit": "^2.2.9",
+    "twitter-stream-api": "^0.5.2"
+  }
+}
